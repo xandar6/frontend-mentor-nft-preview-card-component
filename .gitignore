@@ -1,0 +1,27 @@
+# Design files
+*.sketch
+*.fig
+*.xd
+
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.local
+
+# Build output
+dist/
+build/
+out/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
