@@ -5,3 +5,65 @@
 @import url("./utilities.css");
 
 /* Project styles start here. */
+.site-main {
+  min-height: 100dvh;
+}
+.nft-card {
+  max-width: 350px;
+  width: 100%;
+  background-color: var(--color-blue-900);
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.nft-img {
+  border-radius: var(--radius-sm);
+}
+
+.title {
+  font-size: var(--space-5);
+  color: var(--color-white);
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft-price {
+  color: var(--color-cyan-400);
+  font-weight: 600;
+}
+
+.price-row > span {
+  display: flex;
+  gap: var(--space-2);
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr.rounded {
+  border: 1px solid var(--color-blue-800);
+  border-radius: 5px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.author img {
+  max-width: 35px;
+  border-radius: 50%;
+  outline: 1px solid var(--color-white);
+}
+
+.author span {
+  color: var(--color-white);
+}

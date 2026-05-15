@@ -19,7 +19,7 @@
 }
 
 .text-muted {
-  color: var(--color-text-muted);
+  color: var(--color-blue-500);
 }
 
 @media (prefers-reduced-motion: reduce) {

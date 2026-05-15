@@ -26,8 +26,8 @@
   min-height: 2.75rem;
   padding-inline: var(--space-5);
   border-radius: var(--radius-sm);
-  background-color: var(--color-accent);
-  color: var(--color-white);
+  background-color: var(--color-cyan-400);
+  color: var(--color-blue-950);
   font-weight: 700;
   line-height: 1;
   text-decoration: none;
@@ -35,6 +35,6 @@
 
 .button:hover,
 .button:focus-visible {
-  background-color: var(--color-accent-hover);
-  color: var(--color-white);
+  background-color: var(--color-white);
+  color: var(--color-blue-950);
 }

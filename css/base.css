@@ -2,8 +2,8 @@ body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
-  background-color: var(--color-surface);
-  color: var(--color-text);
+  background-color: var(--color-blue-950);
+  color: var(--color-blue-500);
 }
 
 a {
@@ -11,7 +11,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-accent-hover);
+  color: var(--color-cyan-400);
 }
 
 button,
@@ -26,11 +26,11 @@ button {
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-focus);
+  outline: 3px solid var(--color-cyan-400);
   outline-offset: 4px;
 }
 
 ::selection {
-  background-color: var(--color-accent);
-  color: var(--color-white);
+  background-color: var(--color-cyan-400);
+  color: var(--color-blue-950);
 }
