@@ -4,41 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Frontend Challenge Starter</title>
+    <title>NFT Preview Card Component</title>
 
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js" defer></script>
   </head>
   <body>
-    <main class="site-main center">
-      <div class="nft-card">
-        <button class="nft-btn" type="button" aria-label="View NFT">
-          <img src="images/image-equilibrium.jpg" alt="" class="nft-img" />
-        </button>
+    <main class="site-main" aria-label="NFT preview card">
+      <article class="nft-card">
+        <a class="nft-card__media-link" href="#" aria-label="View Equilibrium #3429">
+          <img
+            class="nft-card__image"
+            src="images/image-equilibrium.jpg"
+            alt="Glass cube artwork for Equilibrium #3429"
+          />
+          <span class="nft-card__overlay" aria-hidden="true">
+            <img src="images/icon-view.svg" alt="" />
+          </span>
+        </a>
 
-        <div class="nft-info flow">
-          <h1 class="title"><a href="#">Equlibrium #3429</a></h1>
-          <p class="desc">
-            Our Equlibrium collection promotes balance and calm
+        <div class="nft-card__body">
+          <h1 class="nft-card__title">
+            <a class="nft-card__title-link" href="#">Equilibrium #3429</a>
+          </h1>
+
+          <p class="nft-card__description">
+            Our Equilibrium collection promotes balance and calm.
           </p>
-          <div class="price-row">
-            <span>
-              <img src="images/icon-ethereum.svg" alt="Etherium" />
-              <span class="nft-price">0.041ETH</span>
+
+          <div class="nft-card__meta">
+            <span class="nft-card__price">
+              <img
+                class="nft-card__icon"
+                src="images/icon-ethereum.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              0.041 ETH
             </span>
-            <span
-              ><img src="images/icon-clock.svg" alt="clock" /><span
-                >3 days left</span
-              ></span
-            >
+
+            <span class="nft-card__time">
+              <img
+                class="nft-card__icon"
+                src="images/icon-clock.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              3 days left
+            </span>
           </div>
         </div>
-        <hr class="rounded" />
-        <div class="author">
-          <img src="images/image-avatar.png" alt="author" />
-          Creation of <span><a href="#">Jules Wyvern</a></span>
-        </div>
-      </div>
+
+        <footer class="nft-card__creator">
+          <img class="nft-card__avatar" src="images/image-avatar.png" alt="" />
+          <span>
+            Creation of
+            <a class="nft-card__creator-link" href="#">Jules Wyvern</a>
+          </span>
+        </footer>
+      </article>
     </main>
   </body>
 </html>

@@ -33,5 +33,7 @@
   --radius-sm: 0.25rem;
   --radius-md: 0.5rem;
   --radius-lg: 1rem;
-  --shadow-sm: 0 0.25rem 0.75rem hsl(0 0% 0% / 0.08);
+  --shadow-card:
+    0 1.5rem 0 hsl(217 54% 8% / 0.16),
+    0 2rem 2.5rem hsl(217 54% 8% / 0.28);
 }
