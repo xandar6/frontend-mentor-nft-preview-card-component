@@ -20,6 +20,28 @@
   gap: var(--space-4);
 }
 
+.nft-btn {
+  position: relative;
+  padding: 0;
+  border-radius: var(--radius-sm);
+}
+
+.nft-btn::after {
+  content: url("../images/icon-view.svg");
+  display: grid;
+  place-items: center;
+  background-color: hsl(from var(--color-cyan-400) h s l / 0.4);
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-sm);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.nft-btn:hover::after {
+  opacity: 1;
+}
+
 .nft-img {
   border-radius: var(--radius-sm);
 }
